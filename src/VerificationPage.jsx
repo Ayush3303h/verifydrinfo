@@ -8,7 +8,7 @@ export default function VerificationPage() {
         {/* Profile Section */}
         <div className="flex flex-col items-center text-center space-y-4">
           <img
-            src="1742142176139.jpeg"
+            src="/1742142176139.jpeg"
             alt="Doctor"
             className="w-28 h-28 rounded-full object-cover"
           />
