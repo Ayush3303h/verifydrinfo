@@ -2,8 +2,8 @@ import React from "react";
 
 export default function VerificationPage() {
   return (
-    <div className="min-h-screen bg-gray-100 flex justify-center p-4">
-      <div className="w-full max-w-md bg-white rounded-3xl shadow-lg p-6 space-y-6">
+    <div className="min-h-screen bg-gray-100">
+      <div className="w-full min-h-screen bg-white p-6 space-y-6">
 
         {/* Profile Section */}
         <div className="flex flex-col items-center text-center space-y-4">
@@ -30,7 +30,7 @@ export default function VerificationPage() {
           </p>
         </div>
 
-        <hr class="border-none h-px bg-black" />
+        <hr className="border-none h-px bg-black" />
 
         {/* Physician Credentials */}
         <div className="space-y-4 flex flex-col items-center">
@@ -58,11 +58,13 @@ export default function VerificationPage() {
           />
         </div>
 
-        <hr class="border-none h-px bg-black" />
+        <hr className="border-none h-px bg-black" />
 
         {/* Document Authentication */}
         <div className="space-y-4">
-          <h2 className="text-xl text-gray-700 font-semibold">📄 Document Authentication</h2>
+          <h2 className="text-xl text-gray-700 font-semibold">
+            📄 Document Authentication
+          </h2>
 
           <Credential label="Document Reference" value="54X08I8K0" />
           <Credential label="Document Issue Date" value="November, 2025" />
